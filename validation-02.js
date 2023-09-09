@@ -10,3 +10,23 @@ function validateObj(obj, validationRules) {
   }
   return resObj
 }
+
+let user = {
+  name: "Tyom",
+  age: 23,
+  gender: 'male'
+}
+let rules = {
+  name: {
+    writable: false,
+  },
+  age: {
+    writable: false,
+    enumerable: tru,
+  },
+  gender: {
+    writable: true,
+  }
+}
+let newUser=validateObj(user,rules)
+console.log(newUser);
