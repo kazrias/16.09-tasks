@@ -1,4 +1,5 @@
 // Write an object with getter/setter field name.
+'use strict'
 
 const obj = {}
 Object.defineProperty(obj, 'name', {
