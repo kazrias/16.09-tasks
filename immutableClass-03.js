@@ -8,4 +8,3 @@ function Immutable(valuesObj) {
   Object.assign(this, valuesObj)
   Object.freeze(this)
 }
-const immutableUser = new Immutable({ name: 'Tyom', age: 23 })
