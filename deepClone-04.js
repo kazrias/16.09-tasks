@@ -2,6 +2,7 @@
 Create a deep clone of an object while preserving property descriptors. Ensure that the cloned object
 has the same property attributes as the original.
 */
+'use strict'
 
 function deepClone(obj) {
   if (obj === null || typeof obj !== 'object') {
