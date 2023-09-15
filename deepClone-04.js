@@ -15,17 +15,3 @@ function deepClone(obj) {
   Object.defineProperties(clone, descriptorsOfObj);
   return clone;
 }
-
-let user = {
-  name: 'Tyom',
-  friends: {
-    first: {
-      name: 'Leon',
-    },
-    second: {
-      name: 'Sam',
-    }
-  }
-}
-let secondUser = deepClone(user)
-console.log(secondUser===user);
