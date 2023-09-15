@@ -10,5 +10,3 @@ Object.defineProperty(obj, 'name', {
     return this._name
   }
 })
-obj.name = "Hamlet, Artavazd, Ashot";
-console.log(obj.name);
